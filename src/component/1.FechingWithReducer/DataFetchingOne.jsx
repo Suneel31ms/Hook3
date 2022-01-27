@@ -23,10 +23,11 @@ function DataFetchingOne() {
       setError('Something went wrong!')
   })
     },[])
+    
   return <div>
         {loading ? "Loading...": post.title}
         {error && error }
-  </div>;
+       </div>;
 }
 
 export default DataFetchingOne;
