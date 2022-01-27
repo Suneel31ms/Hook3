@@ -2,7 +2,6 @@ import React, { useEffect, useReducer } from 'react';
 
 import axios from 'axios'
 //-------------using useReducer for Data fetching-------//
-// follow 4 step -- import,initialState & reducer,
 
 const initialState ={
     loading: true,
