@@ -15,10 +15,10 @@ class ClassTimer extends Component {
            this.setState(prevSate =>({timer: prevSate.timer + 1}))
         },1000)
     }
-    // componentWillUnmount(){
-    //     console.log('unmount');
-    //     clearInterval(this.interval)
-    // }
+    componentWillUnmount(){
+         console.log('unmount');
+         clearInterval(this.interval)
+    }
   render() {
     return (
         <div>
